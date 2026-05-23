@@ -21,7 +21,7 @@ The main implementation is in `AI_agent_assignment_Breakout.ipynb`.
 
 ## Workflow Overview
 
-The notebook exposes four main functions:
+The notebook uses four main functions:
 
 ```python
 def faq_stage(user_input):
@@ -72,11 +72,11 @@ Then edit `.env` and set:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-The notebook currently reads the Gemini key from Colab userdata keys `Gemini-API` or `Gemini-Questionnaire`, then falls back to the `GEMINI_API_KEY` environment variable. `.env` support is documented for local setup, but the notebook code is intentionally left unchanged.
+The notebook currently reads the Gemini key from Colab userdata keys `Gemini-API` and `Gemini-Questionnaire`, then falls back to the `GEMINI_API_KEY` environment variable. `.env` support is documented for local setup, but the notebook code is intentionally left unchanged.
 
 ## Running the Notebook
 
-Open Jupyter:
+Open Jupyter or Google Colab (I've personally used Google Colab):
 
 ```powershell
 jupyter notebook AI_agent_assignment_Breakout.ipynb
@@ -94,8 +94,8 @@ The SOP is treated as authoritative. The agent is instructed not to answer from 
 
 ## Known Trade-Offs
 
-- The assignment PDF allows OpenAI or Anthropic, but this prototype uses Gemini because the notebook was built with `google-genai`.
+- The assignment PDF allows OpenAI or Anthropic, but this prototype uses Gemini because the notebook was built with `google-genai` on account of API pricing plans and Gemini providing a free tier with considerable amount of tokens.
 - The project is notebook-based and does not include a frontend or production API server.
 - `.env` and `python-dotenv` are included for submission packaging and local setup documentation, but the notebook itself was not modified further.
-- Escalation detection combines model responses with deterministic keyword checks for explicit handoff, angry sentiment, complaints, medical questions, and pricing negotiation.
-- The summary stage can use Gemini when an API key is available, with a deterministic fallback if the model call is unavailable.
+- Escalation detection combines model responses with keyword checks for explicit handoff, angry sentiment, complaints, medical questions, and pricing negotiation.
+- The summary stage can use Gemini when an API key is available.
