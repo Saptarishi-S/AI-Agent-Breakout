@@ -92,6 +92,8 @@ The agent operates on the Bloom Aesthetics Clinic SOP. The plain-text SOP refere
 
 The SOP is treated as authoritative. The agent is instructed not to answer from external knowledge or make assumptions beyond that content.
 
+## Video Google Drive Link: https://drive.google.com/file/d/1RAvRQ0o5nRfTLcM-zIAoxucNC1Azv1wU/view?usp=drive_link
+
 ## Known Trade-Offs
 
 - The assignment PDF allows OpenAI or Anthropic, but this prototype uses Gemini because the notebook was built with `google-genai` on account of API pricing plans and Gemini providing a free tier with considerable amount of tokens.
