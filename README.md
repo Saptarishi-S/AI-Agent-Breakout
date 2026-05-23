@@ -99,3 +99,6 @@ The SOP is treated as authoritative. The agent is instructed not to answer from 
 - `.env` and `python-dotenv` are included for submission packaging and local setup documentation, but the notebook itself was not modified further.
 - Escalation detection combines model responses with keyword checks for explicit handoff, angry sentiment, complaints, medical questions, and pricing negotiation.
 - The summary stage can use Gemini when an API key is available.
+
+## Please See - 
+The transcripts are present in the folder of the same name. Lead_Qual contains the text transcript for the Lead Qualifications. The other files show the in-scope questions and the out of scope questions. Escalation Sentiment is displayed seperately in the ipynb and in the Out_Of_Scope folder. All the transcripts are summarised (and it also contains the full transcript if we scroll down).
