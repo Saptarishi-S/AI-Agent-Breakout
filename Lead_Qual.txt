@@ -1,0 +1,36 @@
+**Customer Intent:** The customer intended to provide their business details for qualification/setup.
+
+**Key Details Collected:**
+*   **Working Hours:** 9AM - 9PM
+*   **Team Size:** 5
+*   **Services Offered + Price:** Hair Cut - Rs. 50, Shave - Rs. 20, Head Massage - Rs. 100
+*   **Booking Method:** Message via WhatsApp
+*   **Available Time Slots:** 8AM-9AM, 12PM-1PM, 6PM till closing
+
+**Questions Answered:** Not Provided
+
+**SOP Gaps:** Not Provided
+
+**Escalation Details:** No escalation
+
+**Recommended Actions:** Proceed with onboarding or setup using the collected qualification details.
+
+--- Full Transcript ---
+
+User: qualify
+Agent: To help get you set up, what are your typical working hours?
+User: 9AM - 9PM
+Agent: How many people are on your team?
+User: 5
+Agent: Which services do you offer, and what are their prices?
+User: Hair Cut - Rs. 50, Shave - Rs. 20, Head Massage - Rs. 100
+Agent: What is your preferred booking method?
+User: Message via WhatsApp
+Agent: What appointment time slots are available for customers?
+User: 8AM-9AM, 12PM-1PM, 6PM till closing
+Agent: Just to confirm, here's what I have noted:
+- Working Hours: 9AM - 9PM
+- Team Size: 5
+- Services Offered + Price: Hair Cut - Rs. 50, Shave - Rs. 20, Head Massage - Rs. 100
+- Booking Method: Message via WhatsApp
+- Available Time Slots: 8AM-9AM, 12PM-1PM, 6PM till closing

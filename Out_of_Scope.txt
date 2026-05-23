@@ -1,0 +1,34 @@
+**Customer Intent:** Inquire about Dermal Filler pricing and potential discounts.
+
+**Key Details Collected:**
+*   Working Hours: Not Provided
+*   Team Size: Not Provided
+*   Services Offered + Price: Not Provided
+*   Booking Method: Not Provided
+*   Available Time Slots: Not Provided
+
+**Questions Answered:**
+*   What is the price of Dermal Fillers?
+
+**SOP Gaps:**
+*   Can I get a discount for the dermal fillers?
+
+**Escalation Details:**
+*   **Trigger Type:** Low Confidence / Out of Scope
+*   **Description:** This is outside what I can assist with. Let me connect you with a human agent.
+*   **Last Customer Message:** Can I get a discount for the dermal fillers?
+*   **Stage:** faq
+
+**Recommended Actions:**
+*   A human agent should address the customer's request for a discount on dermal fillers.
+
+--- Full Transcript ---
+
+User: What is the price of Dermal Fillers?
+Agent: Dermal Fillers are priced as follows:
+*   Lips from Rs. 25000
+*   Cheeks from Rs. 30000
+*   Jawline from Rs. 35000
+User: Can I get a discount for the dermal fillers?
+Agent: ESCALATE: This is outside what I can assist with. Let me connect you with a human agent.
+Agent: I'm connecting you with a human agent. Please hold on.
